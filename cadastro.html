@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cadastro de profissional — findurService</title>
+
+    <meta
+      name="description"
+      content="Cadastre-se como profissional autônomo e divulgue seus serviços."
+    />
+
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="index.html">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+
+          <b>findur<span>Service</span></b>
+        </a>
+
+        <nav class="menu">
+          <a href="./../index.html" class="ativo">Início</a>
+          <a href="./../categorias.html">Categorias</a>
+          <a href="./../cadastro.html">Divulgar meu serviço</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container conteudo formulario">
+      <form id="form-cadastro">
+        <h1>Divulgar meu serviço</h1>
+
+        <div>
+          <label for="nome">Nome</label>
+
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Seu nome completo"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="profissao">Profissão</label>
+
+          <input
+            id="profissao"
+            name="profissao"
+            type="text"
+            placeholder="Ex.: Eletricista"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="categoria">Categoria</label>
+
+          <select id="categoria" name="categoria" required>
+            <option value="">Selecione…</option>
+
+            <option value="Eletricista">Eletricista</option>
+            <option value="Encanador">Encanador</option>
+            <option value="Designer">Designer</option>
+            <option value="Pintor">Pintor</option>
+            <option value="Diarista">Diarista</option>
+            <option value="Professor particular">Professor particular</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="localizacao">Localização</label>
+
+          <label for="estado">Estado</label>
+
+          <select id="estado" name="estado" required>
+            <option value="">Selecione…</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="descricao">Descrição dos serviços</label>
+
+          <textarea
+            id="descricao"
+            name="descricao"
+            placeholder="Descreva os serviços que você oferece"
+            minlength="10"
+            maxlength="300"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="whatsapp">Telefone / WhatsApp</label>
+
+          <input
+            id="whatsapp"
+            name="whatsapp"
+            type="tel"
+            placeholder="(61) 99999-9999"
+            required
+          />
+        </div>
+
+        <button class="botao" type="submit">Cadastrar</button>
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <p>findurService — Projeto acadêmico apenas para fins de estudo.</p>
+    </footer>
+
+    <script type="module" src="../js/script.js"></script>
+    <script type="module" src="../js/cadastro.js"></script>
+  </body>
+</html>

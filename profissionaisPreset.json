@@ -1,0 +1,48 @@
+{
+  "profissionais": [
+    {
+      "id": 1,
+      "nome": "Carlos Almeida",
+      "profissao": "Eletricista",
+      "categoria": "Eletricista",
+      "localizacao": "Brasília - DF",
+      "descricao": "Instalações elétricas, manutenção residencial e troca de equipamentos.",
+      "whatsapp": "5561999999999",
+      "avaliacao": 4.8,
+      "numeroAvaliacoes": 27
+    },
+    {
+      "id": 2,
+      "nome": "Mariana Souza",
+      "profissao": "Diarista",
+      "categoria": "Diarista",
+      "localizacao": "Brasília - DF",
+      "descricao": "Limpeza residencial, organização de ambientes e serviços domésticos.",
+      "whatsapp": "5561988888888",
+      "avaliacao": 4.9,
+      "numeroAvaliacoes": 41
+    },
+    {
+      "id": 3,
+      "nome": "Lucas Ferreira",
+      "profissao": "Técnico de Informática",
+      "categoria": "Tecnologia",
+      "localizacao": "Águas Claras - DF",
+      "descricao": "Manutenção de computadores, formatação e instalação de programas.",
+      "whatsapp": "5561977777777",
+      "avaliacao": 4.7,
+      "numeroAvaliacoes": 18
+    },
+    {
+      "id": 4,
+      "nome": "Jones Sousa",
+      "profissao": "Técnico de Informática",
+      "categoria": "Tecnologia",
+      "localizacao": "Águas Claras - DF",
+      "descricao": "Manutenção de computadores, formatação e instalação de programas.",
+      "whatsapp": "5561977777777",
+      "avaliacao": 4.7,
+      "numeroAvaliacoes": 18
+    }
+  ]
+}

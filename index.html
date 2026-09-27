@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      findurService — Encontre profissionais autônomos perto de você
+    </title>
+
+    <meta
+      name="description"
+      content="Busque serviços de profissionais autônomos verificados e entre em contato direto pelo WhatsApp."
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="index.html">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+
+          <b>findur<span>Service</span></b>
+        </a>
+
+        <nav class="menu">
+          <a href="./../index.html" class="ativo">Início</a>
+          <a href="./categorias.html">Categorias</a>
+          <a href="./cadastro.html">Divulgar meu serviço</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container pagina">
+      <div>
+        <section class="hero">
+          <h1>Encontre <em>profissionais autônomos</em> perto de você</h1>
+
+          <p>
+            Serviços de qualidade, profissionais verificados e contato direto,
+            tudo em um só lugar.
+          </p>
+
+          <form class="busca" action="html/profissionais.html" method="get">
+            <label class="campo">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+
+              <input
+                type="search"
+                name="q"
+                placeholder="Qual serviço você precisa?"
+                aria-label="Serviço"
+              />
+            </label>
+
+            <label class="campo">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+
+              <input
+                type="text"
+                name="local"
+                placeholder="Sua cidade, bairro..."
+                aria-label="Localização"
+              />
+            </label>
+
+            <button class="botao" type="submit">Buscar</button>
+          </form>
+        </section>
+
+        <div data-component="categorias"></div>
+
+        <div data-component="profissionais-destaque"></div>
+
+<section class="secao" id="como-funciona">
+        <div class="secao-topo">
+          <h2>Como funciona</h2>
+        </div>
+        <div class="passos">
+          <div class="passo">
+            <span class="icone">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+            </span>
+            <h3>Buscar</h3>
+            <p>Digite o serviço e sua localização.</p>
+          </div>
+          <div class="passo">
+            <span class="icone">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <h3>Encontrar</h3>
+            <p>Veja profissionais perto de você.</p>
+          </div>
+          <div class="passo">
+            <span class="icone">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 21a8 8 0 0 1 16 0" />
+              </svg>
+            </span>
+            <h3>Visualizar perfil</h3>
+            <p>Compare avaliações e serviços.</p>
+          </div>
+          <div class="passo">
+            <span class="icone">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z" />
+              </svg>
+            </span>
+            <h3>Entrar em contato</h3>
+            <p>Fale direto pelo WhatsApp.</p>
+          </div>
+        </div>
+        <div class="chamada">
+          <div>
+            <h2>É profissional autônomo?</h2>
+            <p>Cadastre-se gratuitamente e divulgue seus serviços.</p>
+          </div>
+          <a class="botao botao-lg" href="./cadastro.html">Divulgar meu serviço</a>
+        </div>
+      </section>
+    </div>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <p>findurService — Projeto acadêmico apenas para fins de estudo.</p>
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
